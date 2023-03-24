@@ -1,4 +1,4 @@
-# POLECENIE #
+# RECOMMENDATION #
 Create in PHP 7+ library to encryption and decryption text using:
 
 - Caesar cipher
