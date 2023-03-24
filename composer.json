@@ -1,0 +1,18 @@
+{
+    "name": "przemek/recruit-ciphers",
+    "type": "phpunit",
+    "require": {
+        "phpunit/phpunit": "^9.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Przemek\\RecruitCiphers\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Isild",
+            "email": "pimok96@gmail.com"
+        }
+    ]
+}

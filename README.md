@@ -1,16 +1,21 @@
 # POLECENIE #
-Pisząc w PHP 7+, utwórz bibliotekę pozwalającą na szyfrowanie i deszyfrowanie tekstu wg:
+Create in PHP 7+ library to encryption and decryption text using:
 
-- Szyfr Cezara
-- Szyfr AtBash
-- Szyfr Bacona
+- Caesar cipher
+- AtBash cipher
+- Bacon cipher
 
-zakres szyfrowanych znaków: `/[a-z]/i`
+range of encrypted characters: `/[a-z]/i`
 
-# OCENIAMY #
-- zwracanie prawidłowego wyniku
-- jakość przedstawionego kodu
-- obecność/jakość przedstawionych testów
+# SOLUTION #
+Solution created at `7.4.30 (cli)` PHP version. 
 
-# ROZWIĄZANIE #
-Link do repozytorium GIT z gotowym rozwiązaniem należy podać w formularzu https://goo.gl/forms/FT9qynVoBKiFKrvQ2
+# TESTS #
+To run test you must have installed `phpunit`. To install it to the source you must have also `composer`. When you will have it just run that command:
+```
+composer install
+```
+and then run this command to run tests:
+```
+vendor/bin/phpunit tests/
+```
